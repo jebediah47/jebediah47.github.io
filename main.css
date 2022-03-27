@@ -5,7 +5,12 @@
 }
 
 .bg {
-  background-image: url("images/bg.png");
+  background-image: url("images/bg.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 90%;
   background-size: cover;
   background-position: top;
 

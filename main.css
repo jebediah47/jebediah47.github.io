@@ -1,72 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 :root {
-    --card-background: #1a1b26da;
+  --card-background: #1a1b26da;
 }
 
 .bg {
-    background-image: url("images/bg.png");
-    background-size: cover;
-    background-position: top;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: top;
 
-    text-align: center;
-    color: #c0caf5;
-    font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  color: #c0caf5;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .card {
-    background-color: var(--card-background);
-    width: fit-content;
-    align-items: center;
-    text-align: center;
-    line-height: 30px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: var(--card-background);
+  width: fit-content;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+  border-radius: 10px;
 
-    /* literally just centering this */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  /* literally just centering this */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content {
-    background-color: var(--card-background);
-    width: fit-content;
-    height: fit-content;
-    text-align: left;
-    line-height: 30px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: var(--card-background);
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px;
+  border-radius: 10px;
 
-    /* literally just centering this */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  /* literally just centering this */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .inline-list {
-    display: inline;
+  display: inline;
 }
 
 .il {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: #7dcfff;
-    transition: 0.5s;
+  text-decoration: none;
+  color: #7dcfff;
+  transition: 0.5s;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #7aa2f7;
+  text-decoration: underline;
+  color: #7aa2f7;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
